@@ -4,14 +4,24 @@
 <div align="center">
 
 ![CliniQX Pro](https://img.shields.io/badge/CliniQX-Pro-blue?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0id2hpdGUiIGQ9Ik0xMiAyQzYuNDggMiAyIDYuNDggMiAxMnM0LjQ4IDEwIDEwIDEwIDEwLTQuNDggMTAtMTBTMTcuNTIgMiAxMiAyeiIvPjwvc3ZnPg==)
-![Version](https://img.shields.io/badge/Version-1.0.4-green?style=for-the-badge)
+![Version](https://img.shields.io/badge/Version-1.0.5-green?style=for-the-badge)
 ![Platform](https://img.shields.io/badge/Platform-Windows-0078d4?style=for-the-badge&logo=windows)
 ![License](https://img.shields.io/badge/License-Commercial-orange?style=for-the-badge)
 
 **A professional desktop application for managing dental clinics**
 **تطبيق سطح مكتب احترافي لإدارة عيادات الأسنان**
 
-[⬇️ Download Latest Version](#-download) • [✨ Features](#-features) • [🚀 Getting Started](#-getting-started)
+[🌐 Website](https://cliniqx.pro) • [⬇️ Download Latest Version](#-download) • [✨ Features](#-features) • [🚀 Getting Started](#-getting-started)
+
+</div>
+
+---
+
+## 🌐 Website
+
+<div align="center">
+
+### [➡️ Visit cliniqx.pro](https://cliniqx.pro)
 
 </div>
 
@@ -68,6 +78,11 @@
 - Full treatment history with IQD costs
 - Edit and delete patients
 - Search by name or phone number
+
+### 🔄 Real-Time Sync *(New in v1.0.5)*
+- Data syncs **instantly** across all devices on the same account
+- No restart or logout needed
+- Works for patients, appointments, and price list
 
 ### 🔐 Security & Licensing
 - Secure account system per clinic
@@ -127,15 +142,18 @@ Having issues? Contact us on Telegram:
 
 ## 📋 Changelog
 
-### v1.0.4 — Latest
+### v1.0.5 — Latest
+- ✅ Added real-time sync across all devices
+- ✅ Fixed license activation permissions error
+- ✅ Fixed sidebar not updating after activation
+
+### v1.0.4
 - ✅ Added interactive 32-tooth dental chart (arch view)
 - ✅ Added revenue tracking with price-on-confirm popup
 - ✅ Added 15 pre-loaded treatments with default IQD prices
 - ✅ Added auto-expiry for trial and license
 - ✅ Added live subscription counter in sidebar
 - ✅ Fixed login and session bugs
-- ✅ Fixed license activation permissions error
-- ✅ Fixed sidebar not updating after activation
 
 ### v1.0.3
 - ✅ Cloud sync improvements
