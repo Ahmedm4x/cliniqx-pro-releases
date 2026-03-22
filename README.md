@@ -21,7 +21,7 @@
 
 <div align="center">
 
-### [➡️ Click Here to Download CliniQX Pro v1.0.4](https://github.com/Ahmedm4x/cliniqx-pro-releases/releases/latest)
+### [➡️ Click Here to Download CliniQX Pro v1.0.5](https://github.com/Ahmedm4x/cliniqx-pro-releases/releases/latest)
 
 *Compatible with Windows 10 / 11 (64-bit)*
 
