@@ -87,7 +87,7 @@
 ## 🚀 Getting Started
 
 1. **Download** the installer from the [Releases page](https://github.com/Ahmedm4x/cliniqx-pro-releases/releases/latest)
-2. **Run** `CliniQX.Pro.Setup.1.0.4.exe`
+2. **Run** `CliniQX.Pro.Setup.1.0.5.exe`
 3. **Install** — choose your installation folder
 4. **Sign Up** with your email and clinic name
 5. **Enjoy** your 7-day free trial — no credit card required
