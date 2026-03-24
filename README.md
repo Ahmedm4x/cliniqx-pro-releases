@@ -54,14 +54,14 @@
 - Confirm or delete appointments
 - Auto-adds patients to records when booking
 
-### 🦷 Dental Chart *(New in v1.0.4)*
+### 🦷 Dental Chart *(New in v1.0.5)*
 - Full **32-tooth interactive arch view** — upper & lower jaw
 - Anatomically correct tooth shapes (incisors, canines, premolars, molars)
 - Mark **7 conditions**: Healthy · Cavity · Treated · Crown · Missing · Root Canal · Implant
 - Add notes to individual teeth
 - Saves automatically per patient and syncs to cloud
 
-### 💰 Revenue Tracking *(New in v1.0.4)*
+### 💰 Revenue Tracking *(New in v1.0.5)*
 - Price popup appears when confirming each appointment
 - Quick price buttons from your price list
 - Monthly revenue on dashboard updates live
@@ -147,7 +147,7 @@ Having issues? Contact us on Telegram:
 - ✅ Fixed license activation permissions error
 - ✅ Fixed sidebar not updating after activation
 
-### v1.0.4
+### v1.0.5
 - ✅ Added interactive 32-tooth dental chart (arch view)
 - ✅ Added revenue tracking with price-on-confirm popup
 - ✅ Added 15 pre-loaded treatments with default IQD prices
