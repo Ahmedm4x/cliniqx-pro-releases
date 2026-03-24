@@ -147,7 +147,7 @@ Having issues? Contact us on Telegram:
 - ✅ Fixed license activation permissions error
 - ✅ Fixed sidebar not updating after activation
 
-### v1.0.5
+### v1.0.4
 - ✅ Added interactive 32-tooth dental chart (arch view)
 - ✅ Added revenue tracking with price-on-confirm popup
 - ✅ Added 15 pre-loaded treatments with default IQD prices
