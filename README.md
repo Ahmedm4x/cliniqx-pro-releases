@@ -4,7 +4,7 @@
 <div align="center">
 
 ![CliniQX Pro](https://img.shields.io/badge/CliniQX-Pro-blue?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0id2hpdGUiIGQ9Ik0xMiAyQzYuNDggMiAyIDYuNDggMiAxMnM0LjQ4IDEwIDEwIDEwIDEwLTQuNDggMTAtMTBTMTcuNTIgMiAxMiAyeiIvPjwvc3ZnPg==)
-![Version](https://img.shields.io/badge/Version-1.0.5-green?style=for-the-badge)
+![Version](https://img.shields.io/badge/Version-1.0.6-green?style=for-the-badge)
 ![Platform](https://img.shields.io/badge/Platform-Windows-0078d4?style=for-the-badge&logo=windows)
 ![License](https://img.shields.io/badge/License-Commercial-orange?style=for-the-badge)
 
@@ -31,7 +31,7 @@
 
 <div align="center">
 
-### [➡️ Click Here to Download CliniQX Pro v1.0.5](https://github.com/Ahmedm4x/cliniqx-pro-releases/releases/latest)
+### [➡️ Click Here to Download CliniQX Pro v1.0.6](https://github.com/Ahmedm4x/cliniqx-pro-releases/releases/latest)
 
 *Compatible with Windows 10 / 11 (64-bit)*
 
@@ -54,14 +54,22 @@
 - Confirm or delete appointments
 - Auto-adds patients to records when booking
 
-### 🦷 Dental Chart *(New in v1.0.5)*
+### 🦷 Dental Chart
 - Full **32-tooth interactive arch view** — upper & lower jaw
 - Anatomically correct tooth shapes (incisors, canines, premolars, molars)
 - Mark **7 conditions**: Healthy · Cavity · Treated · Crown · Missing · Root Canal · Implant
 - Add notes to individual teeth
 - Saves automatically per patient and syncs to cloud
 
-### 💰 Revenue Tracking *(New in v1.0.5)*
+### 📁 X-Ray File Management *(New in v1.0.6)*
+- Upload and store X-ray files directly in each patient's profile
+- Supports **PNG, JPG, and DICOM** formats
+- Files are **encrypted and saved to the cloud** automatically
+- Each file linked to the patient with date and type (PANO · CBCT · Periapical)
+- Cloud sync indicator shows upload status in real time
+- View, manage, and share X-ray files from the patient record
+
+### 💰 Revenue Tracking
 - Price popup appears when confirming each appointment
 - Quick price buttons from your price list
 - Monthly revenue on dashboard updates live
@@ -79,10 +87,10 @@
 - Edit and delete patients
 - Search by name or phone number
 
-### 🔄 Real-Time Sync *(New in v1.0.5)*
+### 🔄 Real-Time Sync
 - Data syncs **instantly** across all devices on the same account
 - No restart or logout needed
-- Works for patients, appointments, and price list
+- Works for patients, appointments, price list, and X-ray files
 
 ### 🔐 Security & Licensing
 - Secure account system per clinic
@@ -102,7 +110,7 @@
 ## 🚀 Getting Started
 
 1. **Download** the installer from the [Releases page](https://github.com/Ahmedm4x/cliniqx-pro-releases/releases/latest)
-2. **Run** `CliniQX.Pro.Setup.1.0.5.exe`
+2. **Run** `CliniQX.Pro.Setup.1.0.6.exe`
 3. **Install** — choose your installation folder
 4. **Sign Up** with your email and clinic name
 5. **Enjoy** your 7-day free trial — no credit card required
@@ -134,15 +142,23 @@ To purchase a license key contact us on Telegram → **[@ccc_l](https://t.me/ccc
 
 ## 📞 Support
 
-Having issues? Contact us on Telegram:
-- ✈️ [@ccc_l](https://t.me/ccc_l)
+Having issues? Contact us:
+- ✈️ Telegram: [@ccc_l](https://t.me/ccc_l)
+- 📧 Email: support@cliniqx.pro
+- 📷 Instagram: [@Cliniqx.pro](https://www.instagram.com/Cliniqx.pro)
 - Available in English and Arabic / متاح بالعربية والإنجليزية
 
 ---
 
 ## 📋 Changelog
 
-### v1.0.5 — Latest
+### v1.0.6 — Latest
+- ✅ Added X-Ray File Management — upload PNG, JPG, and DICOM files per patient
+- ✅ Files encrypted and saved to cloud automatically
+- ✅ X-ray files linked to patient profile with date and type
+- ✅ Cloud sync indicator for upload status
+
+### v1.0.5
 - ✅ Added real-time sync across all devices
 - ✅ Fixed license activation permissions error
 - ✅ Fixed sidebar not updating after activation
@@ -166,5 +182,7 @@ Having issues? Contact us on Telegram:
 
 Made with ❤️ for dental clinics
 **CliniQX Pro © 2026**
+
+[🌐 cliniqx.pro](https://cliniqx.pro) • [✈️ @ccc_l](https://t.me/ccc_l) • [📧 support@cliniqx.pro](mailto:support@cliniqx.pro)
 
 </div>
