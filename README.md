@@ -4,7 +4,7 @@
 <div align="center">
 
 ![CliniQX Pro](https://img.shields.io/badge/CliniQX-Pro-blue?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0id2hpdGUiIGQ9Ik0xMiAyQzYuNDggMiAyIDYuNDggMiAxMnM0LjQ4IDEwIDEwIDEwIDEwLTQuNDggMTAtMTBTMTcuNTIgMiAxMiAyeiIvPjwvc3ZnPg==)
-![Version](https://img.shields.io/badge/Version-1.0.6-green?style=for-the-badge)
+![Version](https://img.shields.io/badge/Version-1.0.7-green?style=for-the-badge)
 ![Platform](https://img.shields.io/badge/Platform-Windows-0078d4?style=for-the-badge&logo=windows)
 ![License](https://img.shields.io/badge/License-Commercial-orange?style=for-the-badge)
 
@@ -31,7 +31,7 @@
 
 <div align="center">
 
-### [➡️ Click Here to Download CliniQX Pro v1.0.6](https://github.com/Ahmedm4x/cliniqx-pro-releases/releases/latest)
+### [➡️ Click Here to Download CliniQX Pro v1.0.7](https://github.com/Ahmedm4x/cliniqx-pro-releases/releases/download/v1.0.7/CliniQX-Pro-Setup-1.0.7.exe)
 
 *Compatible with Windows 10 / 11 (64-bit)*
 
@@ -109,8 +109,8 @@
 
 ## 🚀 Getting Started
 
-1. **Download** the installer from the [Releases page](https://github.com/Ahmedm4x/cliniqx-pro-releases/releases/latest)
-2. **Run** `CliniQX.Pro.Setup.1.0.6.exe`
+1. **Download** the installer from the [Releases page](https://github.com/Ahmedm4x/cliniqx-pro-releases/releases/download/v1.0.7/CliniQX-Pro-Setup-1.0.7.exe)
+2. **Run** `CliniQX-Pro-Setup-1.0.7.exe`
 3. **Install** — choose your installation folder
 4. **Sign Up** with your email and clinic name
 5. **Enjoy** your 7-day free trial — no credit card required
@@ -152,7 +152,10 @@ Having issues? Contact us:
 
 ## 📋 Changelog
 
-### v1.0.6 — Latest
+### v1.0.7 — Latest
+- ✅ Updated installer and release package
+
+### v1.0.6
 - ✅ Added X-Ray File Management — upload PNG, JPG, and DICOM files per patient
 - ✅ Files encrypted and saved to cloud automatically
 - ✅ X-ray files linked to patient profile with date and type
