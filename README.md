@@ -132,7 +132,7 @@
 | Plan | Price | Duration | Features |
 |---|---|---|---|
 | Free Trial | 0 IQD | 7 days | Full access |
-| Monthly | 10,000 IQD | 1 month | Full access |
+| Monthly | 15,000 IQD | 1 month | Full access |
 | Annual | 100,000 IQD | 12 months | Full access + 2 months free |
 
 To purchase a license key contact us on Telegram → **[@cliniqx](https://t.me/cliniqx)**
