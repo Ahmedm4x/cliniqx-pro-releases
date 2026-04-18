@@ -4,7 +4,7 @@
 <div align="center">
 
 ![CliniQX Pro](https://img.shields.io/badge/CliniQX-Pro-blue?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0id2hpdGUiIGQ9Ik0xMiAyQzYuNDggMiAyIDYuNDggMiAxMnM0LjQ4IDEwIDEwIDEwIDEwLTQuNDggMTAtMTBTMTcuNTIgMiAxMiAyeiIvPjwvc3ZnPg==)
-![Version](https://img.shields.io/badge/Version-1.1.7-green?style=for-the-badge)
+![Version](https://img.shields.io/badge/Version-1.1.8-green?style=for-the-badge)
 ![Platform](https://img.shields.io/badge/Platform-Windows-0078d4?style=for-the-badge&logo=windows)
 ![License](https://img.shields.io/badge/License-Commercial-orange?style=for-the-badge)
 
@@ -31,7 +31,7 @@
 
 <div align="center">
 
-### [➡️ Click Here to Download CliniQX Pro v1.1.7](https://github.com/Ahmedm4x/cliniqx-pro-releases/releases/download/v1.1.7/CliniQX-Pro-Setup-1.1.7.exe)
+### [➡️ Click Here to Download CliniQX Pro v1.1.8](https://github.com/Ahmedm4x/cliniqx-pro-releases/releases/download/v1.1.8/CliniQX-Pro-Setup-1.1.8.exe)
 
 *Compatible with Windows 10 / 11 (64-bit)*
 
@@ -108,8 +108,8 @@
 
 ## 🚀 Getting Started
 
-1. **Download** the installer from the [Releases page](https://github.com/Ahmedm4x/cliniqx-pro-releases/releases/download/v1.1.7/CliniQX-Pro-Setup-1.1.7.exe)
-2. **Run** `CliniQX-Pro-Setup-1.1.7.exe`
+1. **Download** the installer from the [Releases page](https://github.com/Ahmedm4x/cliniqx-pro-releases/releases/download/v1.1.8/CliniQX-Pro-Setup-1.1.8.exe)
+2. **Run** `CliniQX-Pro-Setup-1.1.8.exe`
 3. **Install** — choose your installation folder
 4. **Sign Up** with your email and clinic name
 5. **Enjoy** your 7-day free trial — no credit card required
@@ -151,7 +151,20 @@ Having issues? Contact us:
 
 ## 📋 Changelog
 
-### v1.1.7 — Latest
+### v1.1.8 — Latest
+- ✅ **Medication Catalog** — Doctors can now build a personal medication catalog with dosage and frequency. When writing a prescription, typing a medication name shows autocomplete suggestions from the catalog, auto-filling dosage, frequency, and duration instantly.
+- ✅ **Date of Birth** — Patient profiles now store date of birth instead of static age. Age is calculated automatically and always stays accurate on every visit.
+- ✅ **All Patients Visible to All Doctors** — Any doctor in the clinic can now view and manage all patients, not just their assigned ones.
+- ✅ **Unassigned Appointments in Calendar** — Unassigned appointments now appear in all doctors' calendars and weekly overview, so nothing gets missed.
+
+**Bug Fixes**
+- Fixed prescription data loss when editing an existing prescription
+- Fixed duplicate event listeners on the prescription page
+- Fixed doctor name not showing correctly on treatment records
+- Fixed date sorting in revenue PDF reports
+- Receptionists can no longer delete past appointments
+
+### v1.1.7
 - ✅ **Prescription Print Preview**
 Prescriptions now open in the default browser (Edge/Chrome) when printed, giving you a full print preview with page layout before confirming. The watermark logo also displays correctly in the preview.
 - ✅ **Prescriptions Page Layout**
