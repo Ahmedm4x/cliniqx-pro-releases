@@ -4,7 +4,7 @@
 <div align="center">
 
 ![CliniQX Pro](https://img.shields.io/badge/CliniQX-Pro-blue?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0id2hpdGUiIGQ9Ik0xMiAyQzYuNDggMiAyIDYuNDggMiAxMnM0LjQ4IDEwIDEwIDEwIDEwLTQuNDggMTAtMTBTMTcuNTIgMiAxMiAyeiIvPjwvc3ZnPg==)
-![Version](https://img.shields.io/badge/Version-1.1.8-green?style=for-the-badge)
+![Version](https://img.shields.io/badge/Version-1.1.9-green?style=for-the-badge)
 ![Platform](https://img.shields.io/badge/Platform-Windows-0078d4?style=for-the-badge&logo=windows)
 ![License](https://img.shields.io/badge/License-Commercial-orange?style=for-the-badge)
 
@@ -31,7 +31,7 @@
 
 <div align="center">
 
-### [➡️ Click Here to Download CliniQX Pro v1.1.8](https://github.com/Ahmedm4x/cliniqx-pro-releases/releases/download/v1.1.8/CliniQX-Pro-Setup-1.1.8.exe)
+### [➡️ Click Here to Download CliniQX Pro v1.1.9](https://github.com/Ahmedm4x/cliniqx-pro-releases/releases/download/v1.1.9/CliniQX-Pro-Setup-1.1.9.exe)
 
 *Compatible with Windows 10 / 11 (64-bit)*
 
@@ -108,8 +108,8 @@
 
 ## 🚀 Getting Started
 
-1. **Download** the installer from the [Releases page](https://github.com/Ahmedm4x/cliniqx-pro-releases/releases/download/v1.1.8/CliniQX-Pro-Setup-1.1.8.exe)
-2. **Run** `CliniQX-Pro-Setup-1.1.8.exe`
+1. **Download** the installer from the [Releases page](https://github.com/Ahmedm4x/cliniqx-pro-releases/releases/download/v1.1.9/CliniQX-Pro-Setup-1.1.9.exe)
+2. **Run** `CliniQX-Pro-Setup-1.1.9.exe`
 3. **Install** — choose your installation folder
 4. **Sign Up** with your email and clinic name
 5. **Enjoy** your 7-day free trial — no credit card required
@@ -151,13 +151,38 @@ Having issues? Contact us:
 
 ## 📋 Changelog
 
-### v1.1.8 — Latest
+### v1.1.9 — Latest
+
+**✨ New Features**
+
+- ☁️ **Cloud X-Ray Storage** — Patient files and X-rays are now securely uploaded and stored in the cloud. Accessible from any device, with virtually unlimited storage and protection from data loss even if the app is reinstalled or the device is changed.
+- 🗓️ **Edit Appointment** — A new "تعديل" button has been added to every appointment, allowing quick updates to appointment time or reassignment to a different doctor without deleting and recreating the booking.
+- 👨‍⚕️ **Doctor-to-Doctor Patient Reassignment** — Doctors can now reassign patients to other doctors inside the clinic and create appointments for any doctor, improving workflow flexibility and team coordination.
+
+**🚀 Improvements**
+
+- 📝 **Arabic-Only Patient Names Support** — Patients can now be added using Arabic names only, without requiring English text.
+- 🔠 **Improved Arabic Name Display** — Arabic patient names now display with proper sizing and cleaner formatting inside the patient list for better readability.
+- 👨‍⚕️ **Larger Doctor Name Visibility** — Doctor names in appointment rows are now larger and clearer, making schedules easier to read quickly.
+- 🦷 **Responsive Dental Chart** — The dental chart now scales correctly across mobile devices, providing a smoother and more accurate experience on smaller screens.
+- 📄 **Prescription Header Redesign** — Centered clinic logo, clinic name aligned to the left, and doctor signature fixed neatly at the bottom — creating a cleaner and more professional printed prescription format.
+
+**🛠️ Bug Fixes**
+
+- Fixed incorrect appointment deletion where the wrong appointment could be deleted when sorted by time.
+- Fixed duplicate patient names appearing inside the patient profile when only the Arabic name field was filled.
+
+### v1.1.8
+
+**✨ New Features**
+
 - ✅ **Medication Catalog** — Doctors can now build a personal medication catalog with dosage and frequency. When writing a prescription, typing a medication name shows autocomplete suggestions from the catalog, auto-filling dosage, frequency, and duration instantly.
 - ✅ **Date of Birth** — Patient profiles now store date of birth instead of static age. Age is calculated automatically and always stays accurate on every visit.
 - ✅ **All Patients Visible to All Doctors** — Any doctor in the clinic can now view and manage all patients, not just their assigned ones.
 - ✅ **Unassigned Appointments in Calendar** — Unassigned appointments now appear in all doctors' calendars and weekly overview, so nothing gets missed.
 
-**Bug Fixes**
+**🛠️ Bug Fixes**
+
 - Fixed prescription data loss when editing an existing prescription
 - Fixed duplicate event listeners on the prescription page
 - Fixed doctor name not showing correctly on treatment records
@@ -165,73 +190,46 @@ Having issues? Contact us:
 - Receptionists can no longer delete past appointments
 
 ### v1.1.7
-- ✅ **Prescription Print Preview**
-Prescriptions now open in the default browser (Edge/Chrome) when printed, giving you a full print preview with page layout before confirming. The watermark logo also displays correctly in the preview.
-- ✅ **Prescriptions Page Layout**
-The New Prescription form is now wider, giving more space for entering medications. The patient prescriptions list on the right is more compact.
-- ✅ **Medication Catalog Improvements**
-Clicking on a medication name field now instantly shows the full catalog list without needing to type anything first.
-- ✅ **Installer Fix**
-The installer now automatically closes CliniQX Pro before updating, eliminating the "cannot be closed" error during installation.
+- ✅ **Prescription Print Preview** — Prescriptions now open in the default browser (Edge/Chrome) when printed, giving you a full print preview with page layout before confirming. The watermark logo also displays correctly in the preview.
+- ✅ **Prescriptions Page Layout** — The New Prescription form is now wider, giving more space for entering medications. The patient prescriptions list on the right is more compact.
+- ✅ **Medication Catalog Improvements** — Clicking on a medication name field now instantly shows the full catalog list without needing to type anything first.
+- ✅ **Installer Fix** — The installer now automatically closes CliniQX Pro before updating, eliminating the "cannot be closed" error during installation.
 
 ### v1.1.6
 - ✅ Updated installer and release package
 
 ### v1.1.4
-- ✅ **Medication Catalog**
-Doctors and staff can now build a saved list of medications with their default dosage, frequency, and duration. When writing a prescription, typing in the medication field shows a live search dropdown from the catalog — selecting one auto-fills all fields instantly. The catalog is shared across all accounts in the clinic in real time, so medications added by one doctor are immediately available to everyone.
+- ✅ **Medication Catalog** — Doctors and staff can now build a saved list of medications with their default dosage, frequency, and duration. When writing a prescription, typing in the medication field shows a live search dropdown from the catalog — selecting one auto-fills all fields instantly. The catalog is shared across all accounts in the clinic in real time.
 
 ### v1.1.3
 - ✅ Updated installer and release package
 - Fix bugs
 
 ### v1.1.2
-- ✅ CliniQX Pro — Update
-
-**Prescription Letterhead**
-Prescriptions now print with a professional clinic letterhead — clinic logo in the header, doctor name, phone, and address on the right, and registration number (رقم التسجيل) at the bottom. The logo also appears as a subtle watermark in the center of the page.
-
-**Clinic Branding Settings**
-A new 🏥 Clinic Branding button in the topbar (admin only) lets you set your clinic logo, registration number, phone, and address once — all prescriptions across the clinic, including sub-doctor accounts, will automatically use it without anyone needing to re-enter anything.
-
-**Revenue Protection**
-Receptionists can no longer delete past appointments from the calendar, preventing accidental removal of completed revenue records. Admins and doctors are unaffected.
-
-**Bug Fixes**
-- Fixed prescription edit deleting the original before the user saves — cancelling an edit now safely restores the original
+- ✅ **Prescription Letterhead** — Prescriptions now print with a professional clinic letterhead — clinic logo in the header, doctor name, phone, and address on the right, and registration number (رقم التسجيل) at the bottom. The logo also appears as a subtle watermark in the center of the page.
+- ✅ **Clinic Branding Settings** — A new 🏥 Clinic Branding button in the topbar (admin only) lets you set your clinic logo, registration number, phone, and address once — all prescriptions across the clinic will automatically use it.
+- ✅ **Revenue Protection** — Receptionists can no longer delete past appointments from the calendar, preventing accidental removal of completed revenue records.
+- Fixed prescription edit deleting the original before the user saves
 - Fixed revenue PDF showing entries out of order due to mixed date formats
 - Fixed doctor name appearing as "Doctor" when an admin manually adds a treatment
 - Fixed appointment bookings storing inconsistent date formats causing revenue miscalculations
 
 ### v1.1.1
-- ✅ CliniQX Pro — Bug Fix Release
-
-**Critical Fixes**
-- Fixed prescription data loss — editing a prescription no longer deletes it immediately. The original is only replaced after the user clicks Save. Cancelling the edit now safely restores the original.
-
-**Revenue Integrity**
-- Receptionists can no longer delete past appointments from the calendar, preventing accidental removal of completed revenue records. Admins and doctors are unaffected.
-- Fixed PDF revenue report showing entries out of order due to inconsistent date formatting (e.g. 2026-4-10 vs 2026-04-13). All dates are now normalized before sorting, so the report displays correctly from newest to oldest.
-
-**Bug Fixes**
-- Fixed doctor name showing as "Doctor" instead of the actual name when an admin manually adds a treatment to a patient.
-- Fixed appointment bookings storing unpadded dates (e.g. 2026-4-13) in patient history, which caused revenue entries to be missed or duplicated in monthly calculations.
-- Fixed prescriptions page accumulating duplicate background event listeners each time the page was visited, causing subtle slowdowns over time.
+- Fixed prescription data loss — editing a prescription no longer deletes it immediately
+- Fixed PDF revenue report showing entries out of order due to inconsistent date formatting
+- Fixed doctor name showing as "Doctor" instead of the actual name when an admin manually adds a treatment
+- Fixed appointment bookings storing unpadded dates causing revenue entries to be missed or duplicated
+- Fixed prescriptions page accumulating duplicate background event listeners
 
 ### v1.1.0
-- ✅ Feature Update
-
-We've introduced several improvements to enhance usability, efficiency, and overall experience:
-
-- **License Expiry Reminder** — Get notified before your license expires with a warning banner. Access is automatically revoked once the license expires.
-- **Patient Search in Prescriptions** — Quickly find patients by name instead of scrolling through long dropdown lists.
-- **Medication Food Instructions** — Add clear instructions to prescriptions: Before Food, With Food, or After Food.
-- **Edit Prescriptions** — Easily update saved prescriptions from both the patient profile and the prescriptions page.
-- **Add Treatments to Patient Records** — Manually add additional treatments and have revenue updated instantly.
-- **Dynamic Treatment Dropdown** — Appointment treatments now sync automatically with your Price List for better consistency.
-- **Edit Patient Information** — A direct edit button is now available on the Patient Information card for faster updates.
-- **Improved Password Access** — The settings icon has been replaced with a clearer lock icon for changing passwords.
-- **Arabic Support in Prescription Printouts** — Medication table headers now include Arabic for better accessibility.
+- ✅ **License Expiry Reminder** — Warning banner before license expires; access automatically revoked once expired.
+- ✅ **Patient Search in Prescriptions** — Find patients by name instead of scrolling through long dropdown lists.
+- ✅ **Medication Food Instructions** — Add Before Food, With Food, or After Food instructions to prescriptions.
+- ✅ **Edit Prescriptions** — Update saved prescriptions from both the patient profile and the prescriptions page.
+- ✅ **Add Treatments to Patient Records** — Manually add treatments with instant revenue update.
+- ✅ **Dynamic Treatment Dropdown** — Appointment treatments now sync automatically with your Price List.
+- ✅ **Edit Patient Information** — Direct edit button on the Patient Information card.
+- ✅ **Arabic Support in Prescription Printouts** — Medication table headers now include Arabic.
 
 ### v1.0.10
 - ✅ Updated installer and release package
