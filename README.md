@@ -4,7 +4,7 @@
 <div align="center">
 
 ![CliniQX Pro](https://img.shields.io/badge/CliniQX-Pro-blue?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0id2hpdGUiIGQ9Ik0xMiAyQzYuNDggMiAyIDYuNDggMiAxMnM0LjQ4IDEwIDEwIDEwIDEwLTQuNDggMTAtMTBTMTcuNTIgMiAxMiAyeiIvPjwvc3ZnPg==)
-![Version](https://img.shields.io/badge/Version-1.1.9-green?style=for-the-badge)
+![Version](https://img.shields.io/badge/Version-1.1.10-green?style=for-the-badge)
 ![Platform](https://img.shields.io/badge/Platform-Windows-0078d4?style=for-the-badge&logo=windows)
 ![License](https://img.shields.io/badge/License-Commercial-orange?style=for-the-badge)
 
@@ -31,7 +31,7 @@
 
 <div align="center">
 
-### [➡️ Click Here to Download CliniQX Pro v1.1.9](https://github.com/Ahmedm4x/cliniqx-pro-releases/releases/download/v1.1.9/CliniQX-Pro-Setup-1.1.9.exe)
+### [➡️ Click Here to Download CliniQX Pro v1.1.10](https://github.com/Ahmedm4x/cliniqx-pro-releases/releases/download/v1.1.10/CliniQX-Pro-Setup-1.1.10.exe)
 
 *Compatible with Windows 10 / 11 (64-bit)*
 
@@ -108,8 +108,8 @@
 
 ## 🚀 Getting Started
 
-1. **Download** the installer from the [Releases page](https://github.com/Ahmedm4x/cliniqx-pro-releases/releases/download/v1.1.9/CliniQX-Pro-Setup-1.1.9.exe)
-2. **Run** `CliniQX-Pro-Setup-1.1.9.exe`
+1. **Download** the installer from the [Releases page](https://github.com/Ahmedm4x/cliniqx-pro-releases/releases/download/v1.1.10/CliniQX-Pro-Setup-1.1.10.exe)
+2. **Run** `CliniQX-Pro-Setup-1.1.10.exe`
 3. **Install** — choose your installation folder
 4. **Sign Up** with your email and clinic name
 5. **Enjoy** your 7-day free trial — no credit card required
@@ -132,8 +132,10 @@
 | Plan | Price | Duration | Features |
 |---|---|---|---|
 | Free Trial | 0 IQD | 7 days | Full access |
-| Monthly | 10,000 IQD | 1 month | Full access |
-| Annual | 100,000 IQD | 12 months | Full access + 2 months free |
+| Monthly | 30,000 IQD | 1 month | Full access |
+| 3 Months | 75,000 IQD | 3 months | Full access — Save 17% |
+| 6 Months | 130,000 IQD | 6 months | Full access — Save 28% |
+| Annual | 250,000 IQD | 12 months | Full access — Save 31% |
 
 To purchase a license key contact us on Telegram → **[@cliniqx](https://t.me/cliniqx)**
 
@@ -151,7 +153,45 @@ Having issues? Contact us:
 
 ## 📋 Changelog
 
-### v1.1.9 — Latest
+### v1.1.10 — Latest · Major Feature Update
+
+*Smarter appointments, redesigned dental chart, cloud X-ray storage, and powerful patient management improvements for modern dental clinics.*
+
+**🦷 Dental Chart — Full Redesign**
+- Clinical straight-row dental chart layout
+- Realistic SVG tooth shapes for every tooth type
+- Crown + root with pink gum separation
+- Correct lower jaw orientation
+- Baby teeth tab added (A–T labeling)
+- Better tooth selection system
+- Missing tooth visual improvements
+
+**📅 Appointment Management**
+- Edit appointment time and assigned doctor
+- Doctors can book for other doctors
+- Reassign patients between doctors
+- Improved time chip grid (Morning / Afternoon / Evening)
+
+**👤 Patient Management**
+- Arabic-only patient names accepted
+- Arabic-only product names accepted
+- Cleaner patient profile display
+
+**☁️ X-Ray & File Storage**
+- Unlimited cloud X-ray uploads
+- Files organized per patient and clinic
+- Accessible by all doctors in the account
+
+**⚙️ Bug Fixes**
+- Fixed wrong appointment deletion issue
+- Fixed DOB timezone shift problem
+- Fixed patient profile refresh issue
+- Fixed dark mode visibility problems
+
+**🚀 Performance**
+- Cloudflare CDN connected for faster loading and reduced bandwidth usage
+
+### v1.1.9
 
 **✨ New Features**
 
