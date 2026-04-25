@@ -4,7 +4,7 @@
 <div align="center">
 
 ![CliniQX Pro](https://img.shields.io/badge/CliniQX-Pro-blue?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0id2hpdGUiIGQ9Ik0xMiAyQzYuNDggMiAyIDYuNDggMiAxMnM0LjQ4IDEwIDEwIDEwIDEwLTQuNDggMTAtMTBTMTcuNTIgMiAxMiAyeiIvPjwvc3ZnPg==)
-![Version](https://img.shields.io/badge/Version-1.1.10-green?style=for-the-badge)
+![Version](https://img.shields.io/badge/Version-1.2.0-green?style=for-the-badge)
 ![Platform](https://img.shields.io/badge/Platform-Windows-0078d4?style=for-the-badge&logo=windows)
 ![License](https://img.shields.io/badge/License-Commercial-orange?style=for-the-badge)
 
@@ -31,7 +31,7 @@
 
 <div align="center">
 
-### [➡️ Click Here to Download CliniQX Pro v1.1.10](https://github.com/Ahmedm4x/cliniqx-pro-releases/releases/download/v1.1.10/CliniQX-Pro-Setup-1.1.10.exe)
+### [➡️ Click Here to Download CliniQX Pro v1.2.0](https://github.com/Ahmedm4x/cliniqx-pro-releases/releases/download/v1.2.0/CliniQX-Pro-Setup-1.2.0.exe)
 
 *Compatible with Windows 10 / 11 (64-bit)*
 
@@ -108,8 +108,8 @@
 
 ## 🚀 Getting Started
 
-1. **Download** the installer from the [Releases page](https://github.com/Ahmedm4x/cliniqx-pro-releases/releases/download/v1.1.10/CliniQX-Pro-Setup-1.1.10.exe)
-2. **Run** `CliniQX-Pro-Setup-1.1.10.exe`
+1. **Download** the installer from the [Releases page](https://github.com/Ahmedm4x/cliniqx-pro-releases/releases/download/v1.2.0/CliniQX-Pro-Setup-1.2.0.exe)
+2. **Run** `CliniQX-Pro-Setup-1.2.0.exe`
 3. **Install** — choose your installation folder
 4. **Sign Up** with your email and clinic name
 5. **Enjoy** your 7-day free trial — no credit card required
@@ -153,7 +153,43 @@ Having issues? Contact us:
 
 ## 📋 Changelog
 
-### v1.1.10 — Latest · Major Feature Update
+### v1.2.0 — Latest · Major Feature Update
+
+**📸 Patient Photos**
+Add a photo to any patient profile — upload from your device or capture directly using the webcam. Photos appear in the patient list and profile view.
+
+**💬 WhatsApp Recall Reminders**
+Send a pre-written Arabic reminder message to any patient directly from the Recall Board with one click. Opens WhatsApp with the message pre-filled — just hit Send.
+
+**🔒 Patient Access Permissions**
+New permission option in Role Permissions: control per staff role whether they can see All Patients, Own Patients only, or None. Applies to both the Patients page and the Recall Board including stat counters.
+
+**🔔 Recall Board**
+Collects all patients with a scheduled follow-up visit, sorted by urgency: Overdue / This Week / This Month / Upcoming — so no patient is forgotten.
+
+**💳 Outstanding Balances**
+Displays all patients who have a remaining unpaid balance from their payment plans, with the amount owed and last visit date.
+
+**🧾 Checkout & Payment**
+Press Checkout on the appointments page to open the billing window — select the treatment, record the amount paid, split it into a payment plan, and it gets added automatically to the patient's medical history.
+
+**📅 Schedule Next Visit**
+From inside a patient profile, set the date and reason for their next visit — they automatically appear on the Recall Board sorted by how soon the appointment is.
+
+**📋 Sidebar Reordering**
+Staff section moved to the bottom of the sidebar for a cleaner navigation flow.
+
+**🐛 Bug Fixes & Improvements**
+- Camera capture photos now save correctly
+- Removing a patient photo while editing now persists
+- Stats counters now respect role permission filters
+- Recall board stats filtered correctly per role
+- Various performance improvements
+
+### v1.1.11
+- ✅ Updated installer and release package
+
+### v1.1.10 · Major Feature Update
 
 *Smarter appointments, redesigned dental chart, cloud X-ray storage, and powerful patient management improvements for modern dental clinics.*
 
