@@ -4,7 +4,7 @@
 <div align="center">
 
 ![CliniQX Pro](https://img.shields.io/badge/CliniQX-Pro-blue?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0id2hpdGUiIGQ9Ik0xMiAyQzYuNDggMiAyIDYuNDggMiAxMnM0LjQ4IDEwIDEwIDEwIDEwLTQuNDggMTAtMTBTMTcuNTIgMiAxMiAyeiIvPjwvc3ZnPg==)
-![Version](https://img.shields.io/badge/Version-1.2.0-green?style=for-the-badge)
+![Version](https://img.shields.io/badge/Version-1.3.0-green?style=for-the-badge)
 ![Platform](https://img.shields.io/badge/Platform-Windows-0078d4?style=for-the-badge&logo=windows)
 ![License](https://img.shields.io/badge/License-Commercial-orange?style=for-the-badge)
 
@@ -31,7 +31,7 @@
 
 <div align="center">
 
-### [➡️ Click Here to Download CliniQX Pro v1.2.0](https://github.com/Ahmedm4x/cliniqx-pro-releases/releases/download/v1.2.0/CliniQX-Pro-Setup-1.2.0.exe)
+### [➡️ Click Here to Download CliniQX Pro v1.3.0](https://github.com/Ahmedm4x/cliniqx-pro-releases/releases/download/v1.3.0/CliniQX-Pro-Setup-1.3.0.exe)
 
 *Compatible with Windows 10 / 11 (64-bit)*
 
@@ -108,8 +108,8 @@
 
 ## 🚀 Getting Started
 
-1. **Download** the installer from the [Releases page](https://github.com/Ahmedm4x/cliniqx-pro-releases/releases/download/v1.2.0/CliniQX-Pro-Setup-1.2.0.exe)
-2. **Run** `CliniQX-Pro-Setup-1.2.0.exe`
+1. **Download** the installer from the [Releases page](https://github.com/Ahmedm4x/cliniqx-pro-releases/releases/download/v1.3.0/CliniQX-Pro-Setup-1.3.0.exe)
+2. **Run** `CliniQX-Pro-Setup-1.3.0.exe`
 3. **Install** — choose your installation folder
 4. **Sign Up** with your email and clinic name
 5. **Enjoy** your 7-day free trial — no credit card required
@@ -153,7 +153,50 @@ Having issues? Contact us:
 
 ## 📋 Changelog
 
-### v1.2.0 — Latest · Major Feature Update
+### v1.3.0 — Latest · April 2026
+
+**✨ New Features**
+
+**🧪 Patient Lab Tests**
+Add lab tests directly to any patient's profile, including procedure date and expiry period. The system automatically calculates each test's status: 🟢 Valid / 🟡 Expiring Soon / 🔴 Expired. Includes 40+ commonly used dental clinic lab test types.
+
+**⏱ Treatment Duration per Procedure**
+Each treatment type now includes a default estimated duration (e.g. Filling = 45 min, Implant = 90 min). Duration is displayed inside the appointment row, included in scheduling insights, and helpful for workload planning.
+
+**🎵 Extra Patient Information Fields**
+Patient profiles now support: preferred background music during sessions, emergency contact number, and an existing infections checklist with an "Other" option. Available during new patient registration and profile completion after booking.
+
+**📤 Send to Doctor from Appointment Row**
+Admins can now send patients directly to another doctor using the new "Send to Doctor" button inside each appointment row — no need to open the patient profile first. Only visible when multiple doctors exist in the clinic.
+
+**📝 Multiple Notes in Treatment Records**
+Treatment records now support multiple separate notes. Type a note and press Enter to convert it into a note chip/tag. Add unlimited notes, organize them clearly, and remove any note instantly using ×.
+
+**🗓 Month-by-Month Navigation for Expenses & Revenue**
+The Expenses page and Revenue Dashboard now include ← → month navigation controls. Features: one-month-at-a-time browsing, automatic totals and category breakdown updates, and a "Today" button to return to the current month.
+
+**📊 Selective PDF Export for Expenses & Revenue**
+Clicking "Export PDF" opens a range selector: This Month, Current View, Last 3 Months, Last 6 Months, This Year, All Time, or Custom Range. A live preview shows total records and total amount before export.
+
+**⚡ Improvements**
+
+**🌐 Better Offline Login Handling**
+Users now see a clear "No Internet Connection" message instead of an unclear error. Previously logged-in users can still access the app automatically using local cache.
+
+**🔔 Appointment Notification Improvements**
+Fixed timing issue — the "Appointment Now" alert now triggers at the exact appointment time (was 7 minutes early). Multiple notifications no longer stack: current appointment shows the main popup, upcoming appointments appear as small bottom notifications.
+
+**🖨️ A5 Landscape Print Support**
+Available print formats now include: A4 Portrait, A4 Landscape, A5 Portrait, A5 Landscape, and Custom Size.
+
+**🛠 Bug Fixes**
+- Fixed issue where saved birthdate could not be cleared after being set
+- Fixed "Complete Profile" window resetting saved patient data when opened
+- Fixed duplicate duration numbers caused by text direction conflicts
+- Fixed lab test expiry dates showing incorrectly in non-UTC timezones
+- Fixed Revenue PDF export crash caused by variable initialization order
+
+### v1.2.0 — Major Feature Update
 
 **📸 Patient Photos**
 Add a photo to any patient profile — upload from your device or capture directly using the webcam. Photos appear in the patient list and profile view.
