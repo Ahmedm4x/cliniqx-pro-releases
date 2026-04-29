@@ -4,7 +4,7 @@
 <div align="center">
 
 ![CliniQX Pro](https://img.shields.io/badge/CliniQX-Pro-blue?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0id2hpdGUiIGQ9Ik0xMiAyQzYuNDggMiAyIDYuNDggMiAxMnM0LjQ4IDEwIDEwIDEwIDEwLTQuNDggMTAtMTBTMTcuNTIgMiAxMiAyeiIvPjwvc3ZnPg==)
-![Version](https://img.shields.io/badge/Version-1.3.0-green?style=for-the-badge)
+![Version](https://img.shields.io/badge/Version-1.4.0-green?style=for-the-badge)
 ![Platform](https://img.shields.io/badge/Platform-Windows-0078d4?style=for-the-badge&logo=windows)
 ![License](https://img.shields.io/badge/License-Commercial-orange?style=for-the-badge)
 
@@ -31,7 +31,7 @@
 
 <div align="center">
 
-### [➡️ Click Here to Download CliniQX Pro v1.3.0](https://github.com/Ahmedm4x/cliniqx-pro-releases/releases/download/v1.3.0/CliniQX-Pro-Setup-1.3.0.exe)
+### [➡️ Click Here to Download CliniQX Pro v1.4.0](https://github.com/Ahmedm4x/cliniqx-pro-releases/releases/download/v1.4.0/CliniQX-Pro-Setup-1.4.0.exe)
 
 *Compatible with Windows 10 / 11 (64-bit)*
 
@@ -108,8 +108,8 @@
 
 ## 🚀 Getting Started
 
-1. **Download** the installer from the [Releases page](https://github.com/Ahmedm4x/cliniqx-pro-releases/releases/download/v1.3.0/CliniQX-Pro-Setup-1.3.0.exe)
-2. **Run** `CliniQX-Pro-Setup-1.3.0.exe`
+1. **Download** the installer from the [Releases page](https://github.com/Ahmedm4x/cliniqx-pro-releases/releases/download/v1.4.0/CliniQX-Pro-Setup-1.4.0.exe)
+2. **Run** `CliniQX-Pro-Setup-1.4.0.exe`
 3. **Install** — choose your installation folder
 4. **Sign Up** with your email and clinic name
 5. **Enjoy** your 7-day free trial — no credit card required
@@ -153,7 +153,30 @@ Having issues? Contact us:
 
 ## 📋 Changelog
 
-### v1.3.0 — Latest · April 2026
+### v1.4.0 — Latest · Appointment Sync Fix & Treatment Notes Update
+
+**🐛 Critical Fix — Appointment Sync & Disappearing Bookings**
+
+A major issue causing appointments to randomly disappear or fail to sync between users has been fully resolved.
+
+*Root Cause:* All appointments were stored as one large JSON object in Firestore. If two users saved changes simultaneously, the most recent save would overwrite the previous one — causing bookings to vanish. A second issue caused the real-time sync to rely on device clock timestamps, meaning a device with a slightly ahead clock could permanently ignore updates from other users.
+
+*What Changed:*
+
+- **Independent Daily Storage** — Each day's appointments are now stored separately (e.g. `appt_2026-04-29`), preventing conflicts between users on different dates and eliminating full-calendar overwrites.
+- **Appointments Removed from General Auto-Save** — Appointment data is now only written when a booking is actually created, edited, confirmed, or deleted. Syncing is faster, safer, and more reliable.
+- **New Session-Based Sync Protection** — The old clock-based sync guard is replaced with a session token system. Every save generates a unique random session ID. A device ignores only its own updates while always accepting changes from other users regardless of device time differences.
+- **Automatic One-Time Migration** — Older systems using the previous single-field storage are automatically migrated on first load. No manual action required.
+
+**✨ Add Treatment — Multiple Notes Support**
+
+The multi-note chip system (previously only in Edit Treatment Record) is now also available in the Add Treatment modal. Type a note, press Enter to convert it into a note tag, and remove notes easily using ×.
+
+**🛠 Bug Fix — Add Treatment Modal Not Opening**
+
+Fixed an issue where the Add Treatment modal would fail to open. Cause: removing the old notes input left behind a stale reference that crashed the modal before it could load.
+
+### v1.3.0 — April 2026
 
 **✨ New Features**
 
