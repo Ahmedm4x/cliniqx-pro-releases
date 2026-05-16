@@ -4,7 +4,7 @@
 <div align="center">
 
 ![CliniQX Pro](https://img.shields.io/badge/CliniQX-Pro-blue?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0id2hpdGUiIGQ9Ik0xMiAyQzYuNDggMiAyIDYuNDggMiAxMnM0LjQ4IDEwIDEwIDEwIDEwLTQuNDggMTAtMTBTMTcuNTIgMiAxMiAyeiIvPjwvc3ZnPg==)
-![Version](https://img.shields.io/badge/Version-1.4.0-green?style=for-the-badge)
+![Version](https://img.shields.io/badge/Version-1.6.0-green?style=for-the-badge)
 ![Platform](https://img.shields.io/badge/Platform-Windows-0078d4?style=for-the-badge&logo=windows)
 ![License](https://img.shields.io/badge/License-Commercial-orange?style=for-the-badge)
 
@@ -31,7 +31,7 @@
 
 <div align="center">
 
-### [➡️ Click Here to Download CliniQX Pro v1.4.0](https://github.com/Ahmedm4x/cliniqx-pro-releases/releases/download/v1.4.0/CliniQX-Pro-Setup-1.4.0.exe)
+### [➡️ Click Here to Download CliniQX Pro v1.6.0](https://github.com/Ahmedm4x/cliniqx-pro-releases/releases/download/v1.6.0/CliniQX-Pro-Setup-1.6.0.exe)
 
 *Compatible with Windows 10 / 11 (64-bit)*
 
@@ -108,8 +108,8 @@
 
 ## 🚀 Getting Started
 
-1. **Download** the installer from the [Releases page](https://github.com/Ahmedm4x/cliniqx-pro-releases/releases/download/v1.4.0/CliniQX-Pro-Setup-1.4.0.exe)
-2. **Run** `CliniQX-Pro-Setup-1.4.0.exe`
+1. **Download** the installer from the [Releases page](https://github.com/Ahmedm4x/cliniqx-pro-releases/releases/download/v1.6.0/CliniQX-Pro-Setup-1.6.0.exe)
+2. **Run** `CliniQX-Pro-Setup-1.6.0.exe`
 3. **Install** — choose your installation folder
 4. **Sign Up** with your email and clinic name
 5. **Enjoy** your 7-day free trial — no credit card required
@@ -153,7 +153,36 @@ Having issues? Contact us:
 
 ## 📋 Changelog
 
-### v1.4.0 — Latest · Appointment Sync Fix & Treatment Notes Update
+### v1.6.0 — Latest · أكبر تحديث حتى الآن
+
+**🚀 20 ميزة وتحسين جديد يغطي إدارة العيادة بالكامل**
+
+*CliniQX Pro لم يعد مجرد برنامج مواعيد — بل نظام متكامل لإدارة العيادات الحديثة.*
+
+**✨ الجديد في الإصدار:**
+
+- 💱 إصلاح نظام العملة في الأقساط
+- 🦷 اختيار أسطح السن داخل العلاجات
+- 🔡 عرض رموز الأسطح مباشرة على السن
+- 📊 إضافة مخطط اللثة Perio Chart
+- 🔩 دعم أشكال الأسنان وقنوات الجذور
+- 🩸 إدارة الحالات الطبية المزمنة للمريض
+- 🖨️ طباعة التحاليل مع أو بدون الأسعار
+- 🔬 إضافة Culture Test لفحوصات الزراعة
+- 🕐 تحديد ساعات العمل من–إلى
+- 🧾 إرسال أو طباعة إيصال القسط مباشرة
+- 👑 صلاحيات مالك العيادة للطبيب
+- 🔔 لوحة متابعة ذكية بتلوين زمني للحالات
+- 🏥 متابعة ما بعد العمليات والإجراءات
+- 📦 تطوير نظام المصروفات: الكمية + تاريخ النفاذ
+- 📝 تحسين نموذج إضافة المريض بالكامل
+- 🎞️ انتقالات وحركات أكثر سلاسة في الواجهة
+- ◀️ زر رجوع ذكي داخل النظام
+- 🎨 كتالوج وتصميم احترافي للعيادة
+- 🔬 دعم مخطط اللثة مع فحوصات متعددة
+- 🐛 عشرات الإصلاحات وتحسينات الاستقرار
+
+### v1.4.0 — Appointment Sync Fix & Treatment Notes Update
 
 **🐛 Critical Fix — Appointment Sync & Disappearing Bookings**
 
